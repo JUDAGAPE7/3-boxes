@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body. {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
+h3 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 30px;
+
+  padding: 40px 0 0 50px;
+  color: hsl(0, 0%, 95%);
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  padding: 50px;
+  position: relative;
+  line-height: 2;
+  text-align: left;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  margin: 10% 25% 0 25%;
+}
+
+.sedan {
+  width: 300px;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
+}
+
+.suvs {
+  width: 300px;
+  height: 500px;
+  margin: 0;
+  padding: left 10px;
+  background-color: hsl(184, 100%, 22%);
+  position: relative;
+  left: 300px;
+  bottom: 500px;
+}
+
+.luxury {
+  width: 300px;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 10px 10px 0;
+  position: relative;
+  left: 600px;
+  bottom: 1000px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: 0%;
+  position: relative;
+  bottom: 900px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.btnss {
+  color: hsl(31, 77%, 52%);
+  margin-left: 50px;
+  border-radius: 50px;
+  font-family: "Lexend Deca", sans-serif;
+  padding: 10px;
+  border: 2px;
+  border-color: white;
+  cursor: pointer;
+}
+.btnss:hover {
+  background-color: transparent;
+  color: white;
+
+  border: 3px;
+  border: 2px solid white;
+}
+
+.btns {
+  color: hsl(184, 100%, 22%);
+  margin-left: 50px;
+  border-radius: 50px;
+  font-family: "Lexend Deca", sans-serif;
+  padding: 10px;
+  border: 2px;
+  border-color: white;
+  cursor: pointer;
+}
+.btns:hover {
+  background-color: transparent;
+  color: white;
+
+  border: 3px;
+  border: 2px solid white;
+}
+
+.btnl {
+  color: hsl(179, 100%, 13%);
+  margin-left: 50px;
+  border-radius: 50px;
+  font-family: "Lexend Deca", sans-serif;
+  padding: 10px;
+  border: 2px;
+  border-color: white;
+  cursor: pointer;
+}
+.btnl:hover {
+  background-color: transparent;
+  color: white;
+
+  border: 3px;
+  border: 2px solid white;
+}
+
+img {
+  margin-top: 30px;
+  margin-left: 50px;
+}
